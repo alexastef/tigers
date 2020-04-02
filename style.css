@@ -1,19 +1,14 @@
 /* Stylesheet for Tiger site */
-
 * {
+    box-sizing: border-box;
+    padding: 0;
     margin: 0;
-}
-
-.container {
-    position: relative;
 }
 
 body {
     font-family: "Helvetica";
     background-color: lightgray;
     color: black;
-    margin: 0;
-    padding: 0 auto;
 }
 
 header {
@@ -40,7 +35,7 @@ h1 {
 }
 
 main {
-    width: 75%;
+    width: 70%;
     display: inline-block;
     margin-left: 25px;
 }
@@ -61,14 +56,9 @@ h3 {
     padding: 50px;
 }
 
-#resources,
 #tiger-video {
-    width: 37.5%;
+    width: 50%;
     text-align: center;
-}
-
-#tiger-video {
-    float: left;
 }
 
 iframe {
@@ -80,8 +70,12 @@ iframe {
 }
 
 #resources {
+    width: 48%;
+    text-align: center;
     float: right;
 }
+
+
 
 ul {
     list-style-type: none;
@@ -97,16 +91,16 @@ a {
 
 aside {
     float: right;
-    clear: both;
-    width: 300px;
+    clear: right;
+    width: 25%;
     margin-right: 25px;
     line-height: 0;
     display: inline-block;
-    text-align: center;
+
 }
 
 aside img {
-    max-width: 300px;
+    max-width: 100%;
     margin: 0;
     padding: 0;
 }
